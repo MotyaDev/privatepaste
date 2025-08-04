@@ -1,0 +1,7 @@
+echo Downloading brlsh to your system
+wget https://rawcdn.githack.com/MotyaDev/privatepaste/refs/heads/main/brlsh
+
+echo Installing brlsh
+sudo cp ./brlsh /usr/bin/brlsh
+
+echo brlsh is installed!
