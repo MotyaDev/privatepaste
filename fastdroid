@@ -1,0 +1,7 @@
+sudo docker run -itd --rm --privileged \
+    -v ~/data:/data \
+    -p 5555:5555 \
+    redroid/redroid:16.0.0_64only-latest # replace 16 to your android version
+
+adb connect localhost:5555
+scrcpy -s localhost:5555
