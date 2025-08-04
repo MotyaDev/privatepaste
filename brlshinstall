@@ -3,5 +3,6 @@ wget https://rawcdn.githack.com/MotyaDev/privatepaste/refs/heads/main/brlsh
 
 echo Installing brlsh
 sudo cp ./brlsh /usr/bin/brlsh
+sudo chmod +x /usr/bin/brlsh
 
 echo brlsh is installed!
