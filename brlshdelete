@@ -1,5 +1,5 @@
 echo Deleting brlsh
-sudor rm /usr/bin/brlsh
+sudo rm /usr/bin/brlsh
 
 echo brlsh is deleted
 rm brlshdelete
