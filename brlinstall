@@ -1,0 +1,9 @@
+echo Downloading dbrl to your system
+wget https://rawcdn.githack.com/MotyaDev/privatepaste/refs/heads/main/dbrl
+
+echo Installing dbrl
+sudo cp ./dbrl /usr/bin/dbrl
+sudo chmod +x /usr/bin/dbrl
+
+echo dbrl is installed!
+rm dbrlinstall
